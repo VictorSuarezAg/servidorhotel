@@ -39,8 +39,6 @@ Para poder hacer testear la api desde postman o thunderclient es necesario que u
 En el caso de la reserva estos serian los datos de ejemplo:
 
 ```JSON
-...
-
 {
   "nombreCliente": "Victor",
   "apellidoCliente": "Suarez",
@@ -53,14 +51,11 @@ En el caso de la reserva estos serian los datos de ejemplo:
   },
   "idRoom": "64472c94e529ed5c1230fdcf"
 }
-
-...
 ```
 
 En el caso de la habitación serian estos por ejemplo:
 
 ```JSON
-...
 {
   "nombre": "Habitacion Deluxe",
   "foto": ["https://firebasestorage.googleapis.com/v0/b/hotelapp-85de5.appspot.com/o/habitaiciondeluxe1.jpg?alt=media&token=b7843f88-af7e-4ef9-bc58-c42fc34606ff", "https://firebasestorage.googleapis.com/v0/b/hotelapp-85de5.appspot.com/o/habitaciondeluxe2.jpg?alt=media&token=f140f340-3613-4411-88ca-98ad47e2c813" ],
@@ -68,5 +63,4 @@ En el caso de la habitación serian estos por ejemplo:
   "precio": 1200,
   "ocupacion": 2
 }
-...
 ```
