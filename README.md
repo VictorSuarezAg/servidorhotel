@@ -14,25 +14,25 @@
 
 ___
 
-* [Autor] (#autor)
-* [Descripción] (#descripcion)
-* [Instalación] (#instalacion)
-* [Uso] (#uso)
+* [Autor](#autor)
+* [Descripción](#descripcion)
+* [Instalación](#instalacion)
+* [Uso](#uso)
 
-## Autor
+## Autor <div id="autor"/>
 
 Victor Alfonso Suárez Aguirre
 
-## Descripción
+## Descripción  <div id="descripcion"/>
 
 Api de motor de reservas que permite realizar el CRUD de habitaciones y el CRUD de reservas
 
-## Instalación
+## Instalación  <div id="instalacion"/>
 
 Para poder probar el proyecto es necesario descargarlo desde github y una vez termine la descarga
 ingresar a la carpeta donde quedo guardado el proyecto y correr el comando `npm install` para poder instalar los paquetes.
 
-## Uso
+## Uso  <div id="uso"/>
 
 Para poder hacer testear la api desde postman o thunderclient es necesario que una vez que este corriendo el proyecto con `npm start` agregue el metodo según lo que se necesite probar GET/POST/PUT luego agregar la url donde se estara corriendo el entorno de la api para este caso es esta `localhost:3000/` despues del slash se debe agregar la ruta esto se encuentra en la carpeta `routes > rutas.js` en caso de necesitarlo para el registro o para la modiuficación agregar en el body en formato json la información necesaria para el registro.
 
