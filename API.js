@@ -1,9 +1,11 @@
 import express from "express";
 import { rutas } from './routes/rutas.js'
+import { establecerConexion } from "./database/conexion.js";
 
 export class API {
     constructor () {
         this.app = express()
+        this.conectarConBD()
         this.enrutarPeticiones()
     }
 
@@ -16,5 +18,7 @@ export class API {
         this.app.use('/', rutas)
     }
 
-    conectarConBD () {}
+    conectarConBD () {
+        establecerConexion()
+    }
 }
