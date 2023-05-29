@@ -34,7 +34,7 @@ ingresar a la carpeta donde quedo guardado el proyecto y correr el comando `npm 
 
 ## Uso  <div id="uso"/>
 
-Para poder hacer testear la api desde postman o thunderclient es necesario que una vez que este corriendo el proyecto con `npm start` agregue el metodo según lo que se necesite probar GET/POST/PUT luego agregar la url donde se estara corriendo el entorno de la api para este caso es esta `localhost:3000/` despues del slash se debe agregar la ruta esto se encuentra en la carpeta `routes > rutas.js` en caso de necesitarlo para el registro o para la modiuficación agregar en el body en formato json la información necesaria para el registro.
+Para poder hacer testear la api desde postman o thunderclient es necesario que una vez que este corriendo el proyecto con `npm start` agregue el metodo según lo que se necesite probar GET/POST/PUT luego agregar la url donde se estara corriendo el entorno de la api para este caso es esta `localhost:3000/` despues del slash se debe agregar la ruta esto se encuentra en la carpeta `routes > rutas.js` en caso de necesitarlo para el registro o para la modificación agregar en el body en formato json la información necesaria para el registro.
 
 En el caso de la reserva estos serian los datos de ejemplo:
 
